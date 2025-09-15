@@ -176,8 +176,8 @@ async def start_server():
         return
     
     # 启动WebSocket服务器
-    server = await websockets.serve(handle_client, "localhost", 8765)
-    print("WebSocket服务器已启动: ws://localhost:8765")
+    server = await websockets.serve(handle_client, "0.0.0.0", 8765)
+    print("WebSocket服务器已启动: ws://0.0.0.0:8765")
     print(f"音频文件: {WAV_FILE_PATH}")
     print(f"采样率: {SAMPLE_RATE}Hz, 声道数: {CHANNELS}, 帧时长: {FRAME_DURATION_MS}ms")
     

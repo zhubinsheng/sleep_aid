@@ -10,7 +10,7 @@ import wave
 import os
 
 # 配置
-SERVER_URL = "ws://localhost:8765"
+SERVER_URL = "ws://180.76.190.230:8765"
 SAMPLE_RATE = 24000  # 采样率 - 24kHz
 CHANNELS = 2
 FRAME_DURATION_MS = 60
