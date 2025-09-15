@@ -1,0 +1,16 @@
+# ESP32睡眠音乐服务器依赖包
+# 安装命令: pip install -r requirements.txt
+
+# WebSocket服务器
+websockets>=10.0
+
+# 音频处理
+numpy>=1.20.0
+pydub>=0.25.1
+opuslib_next>=1.1.5
+pyaudio>=0.2.11
+
+# 系统依赖说明：
+# Ubuntu/Debian: sudo apt install portaudio19-dev libopus-dev python3-dev
+# CentOS/RHEL: sudo yum install portaudio-devel opus-devel python3-devel
+# macOS: brew install portaudio opus
